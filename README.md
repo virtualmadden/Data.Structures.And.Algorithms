@@ -1,5 +1,5 @@
 # Data Structures And Algorithms
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/virtualmadden/Data.Structures.And.Algorithms/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/virtualmadden/Data.Structures.And.Algorithms.svg?branch=master)](https://travis-ci.org/virtualmadden/Data.Structures.And.Algorithms) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/virtualmadden/Data.Structures.And.Algorithms/blob/master/LICENSE)
 
 ## Implementation
 Algorithms
