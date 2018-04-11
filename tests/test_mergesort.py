@@ -1,5 +1,5 @@
 import unittest
-import mergesort.mergesort
+from src.mergesort.mergesort import merge_sort
 
 
 class Test(unittest.TestCase):
@@ -8,4 +8,4 @@ class Test(unittest.TestCase):
         self.sortedList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
     def test_shouldBeSorted(self):
-        self.assertEqual(self.sortedList, mergesort.mergesort.merge_sort(self.unsortedList))
+        self.assertEqual(self.sortedList, merge_sort(self.unsortedList))
