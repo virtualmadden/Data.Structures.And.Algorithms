@@ -10,9 +10,10 @@ Algorithms
 - [Python](https://www.python.org/)
 
 ## Setup
-1. Install the most recent version of Python 3.
-1. `pip install -r requirements.txt`
-1. `pip install -e .`
+- `pip install data_structures_and_algorithms`
 
 ## Tests
 - `pytest`
+
+## Uninstall
+- `pip uninstall data_structures_and_algorithms -y`
