@@ -12,7 +12,6 @@ setup(
     url=about['__url__'],
     license=about['__license__'],
     author=about['__author__'],
-    author_email=about['__author_email__'],
     description=about['__description__'],
     long_description=__doc__,
     packages=['src'],

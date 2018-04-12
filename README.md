@@ -10,10 +10,8 @@ Algorithms
 - [Python](https://www.python.org/)
 
 ## Setup
-- `pip install data_structures_and_algorithms`
+- `pip install -r requirements.txt`
+- `pip install -e .`
 
 ## Tests
 - `pytest`
-
-## Uninstall
-- `pip uninstall data_structures_and_algorithms -y`

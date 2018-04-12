@@ -8,7 +8,8 @@ before_install:
   - uname -a
   - lsb_release -a
 install:
-  - pip install data_structures_and_algorithms
+  - pip install -r requirements.txt
+  - pip install -e .
 script:
   - pytest
 notifications:
