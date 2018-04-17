@@ -3,9 +3,12 @@ from src.tree.binarytree import BinaryTree
 
 
 class Test(unittest.TestCase):
-    def test_shouldInsertNode(self):
-        tree = BinaryTree(4)
+    def setUp(self):
+        self.tree = BinaryTree(50)
 
-        self.assertTrue(tree.root.value is 4)
-        self.assertTrue(tree.root.left is None)
-        self.assertTrue(tree.root.right is None)
+    def test_shouldInsertNode(self):
+        self.tree.insert(40)
+
+        result = self.tree.search(40)
+
+        self.assertTrue(result)
