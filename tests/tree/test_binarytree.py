@@ -14,7 +14,7 @@ class Test(unittest.TestCase):
 
         self.assertFalse(self.tree.insert(40))
 
-    def test_shouldNotInsertSameNode(self):
+    def test_shouldInsertNodesInComparisonToParent(self):
         self.tree.insert(40)
         self.tree.insert(60)
 
