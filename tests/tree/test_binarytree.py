@@ -7,8 +7,4 @@ class Test(unittest.TestCase):
         self.tree = BinaryTree(50)
 
     def test_shouldInsertNode(self):
-        self.tree.insert(40)
-
-        result = self.tree.search(40)
-
-        self.assertTrue(result)
+        self.assertTrue(self.tree.insert(40))
